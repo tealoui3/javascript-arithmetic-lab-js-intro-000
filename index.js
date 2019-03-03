@@ -4,10 +4,7 @@ function add() {
 	a + b;
 }
 function subtract() {
-	b-a;
-}
-function add() {
-	a + b;
+	b - a;
 }
 function multiply() {
 	a * b;
