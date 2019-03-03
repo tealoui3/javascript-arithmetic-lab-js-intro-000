@@ -1,24 +1,24 @@
 var a = 20
 var b = 40
 
-function add() {
-	console.log(a + b);
+function add(a, b) {
+	return a + b;
 }
-function subtract() {
-	console.log(b - a);
+function subtract(b, a) {
+	return b - a;
 }
-function multiply() {
-	console.log(a * b);
+function multiply(a, b) {
+	return a * b;
 }
-function divide() {
-	console.log(a / b);
+function divide(a, b) {
+	return a / b;
 }
-function inc() {
-	console.log(a++);
+function inc(a) {
+	return a++;
 }
-function dec() {
-	console.log(a--);
+function dec(a) {
+	return a--;
 }
-function makeInt() {
-	console.log(parseInt(a, 10));
+function makeInt(a) {
+	return parseInt(a, 10);
 }
