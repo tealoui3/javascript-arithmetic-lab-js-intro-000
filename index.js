@@ -1,3 +1,6 @@
+var a = 20
+var b = 40
+
 function add() {
 	console.log(a + b);
 }
