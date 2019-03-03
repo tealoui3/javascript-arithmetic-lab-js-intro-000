@@ -1,21 +1,21 @@
 function add() {
-	a + b;
+	console.log(a + b);
 }
 function subtract() {
-	b - a;
+	console.log(b - a);
 }
 function multiply() {
-	a * b;
+	console.log(a * b);
 }
 function divide() {
-	a / b;
+	console.log(a / b);
 }
 function inc() {
-	a++;
+	console.log(a++);
 }
 function dec() {
-	a--;
+	console.log(a--);
 }
 function makeInt() {
-	parseInt(a, 10);
+	console.log(parseInt(a, 10));
 }
