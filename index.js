@@ -1,5 +1,3 @@
-var a = 20
-var b = 5
 function add() {
 	a + b;
 }
